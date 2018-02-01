@@ -1,0 +1,35 @@
+.my-bg-primary {
+  background: $primary-black;
+}
+
+.my-bg-secondary {
+  background: $secondary-black;
+}
+
+.my-bg-btn {
+  background: $light-blue-link;
+}
+
+/* Override Bootstrap default */
+.list-group-item {
+  background: $primary-black;
+
+  &:last-child {
+    border: none;
+  }
+  &:not(:last-child) {
+    border-bottom: 1px solid $secondary-white;
+  }
+
+  &:hover {
+    background: darken($primary-black, 4%);
+    border-color: $secondary-black;
+  }
+}
+
+.list-group-item-action {
+}
+
+.fa, .fab {
+  color: $green-icon;
+}

@@ -1,0 +1,32 @@
+.my-text-default {
+  color: #FFF;
+  font-weight: 600; }
+
+.my-text-subtext {
+  color: #F1F1F1;
+  font-weight: 200; }
+
+.my-bg-primary {
+  background: #252831; }
+
+.my-bg-secondary {
+  background: #1E2127; }
+
+.my-bg-btn {
+  background: #1BA7DD; }
+
+/* Override Bootstrap default */
+.list-group-item {
+  background: #252831; }
+  .list-group-item:last-child {
+    border: none; }
+  .list-group-item:not(:last-child) {
+    border-bottom: 1px solid #F1F1F1; }
+  .list-group-item:hover {
+    background: #1c1f25;
+    border-color: #1E2127; }
+
+.fa, .fab {
+  color: #51566A; }
+
+/*# sourceMappingURL=style.css.map */
