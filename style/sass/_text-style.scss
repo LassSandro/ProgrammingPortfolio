@@ -7,3 +7,14 @@
   color: $secondary-white;
   font-weight: 200;
 }
+
+.my-icon-single {
+  color: $primary-white !important;
+  padding: $div-padding-medium;
+  font-size: 2.4rem;
+  line-height: 4.2rem;
+}
+
+.my-hr-style {
+  border-color: darken($primary-white, 60%);
+}

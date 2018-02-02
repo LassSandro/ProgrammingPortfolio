@@ -1,3 +1,5 @@
+/* Colors */
+/* Sizes */
 .my-text-default {
   color: #FFF;
   font-weight: 600; }
@@ -5,6 +7,15 @@
 .my-text-subtext {
   color: #F1F1F1;
   font-weight: 200; }
+
+.my-icon-single {
+  color: #FFF !important;
+  padding: 12px;
+  font-size: 2.4rem;
+  line-height: 4.2rem; }
+
+.my-hr-style {
+  border-color: #666666; }
 
 .my-bg-primary {
   background: #252831; }
@@ -15,16 +26,44 @@
 .my-bg-btn {
   background: #1BA7DD; }
 
+.my-card-bio {
+  border: none; }
+  .my-card-bio .card-body {
+    padding: 6px 0; }
+    .my-card-bio .card-body .card-text {
+      color: #b0b4c3; }
+
+.my-sidebar-padding {
+  padding: 0 6px; }
+
 /* Override Bootstrap default */
 .list-group-item {
   background: #252831; }
   .list-group-item:last-child {
-    border: none; }
+    border-bottom: none; }
+  .list-group-item:first-child {
+    border-top: none; }
   .list-group-item:not(:last-child) {
     border-bottom: 1px solid #F1F1F1; }
   .list-group-item:hover {
     background: #1c1f25;
     border-color: #1E2127; }
+
+.progress-bar {
+  background-color: #19A9E3; }
+
+.clear-button-style {
+  background: none;
+  border: none;
+  padding: none;
+  outline: none; }
+  .clear-button-style:active {
+    outline: none; }
+  .clear-button-style:focus {
+    outline: none; }
+  .clear-button-style:hover {
+    cursor: pointer;
+    opacity: 0.8; }
 
 .fa, .fab {
   color: #51566A; }

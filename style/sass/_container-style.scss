@@ -10,12 +10,30 @@
   background: $light-blue-link;
 }
 
+.my-card-bio {
+  border: none;
+  .card-body {
+    padding: $div-padding-small 0;
+
+    .card-text {
+      color: lighten($green-icon, 36%);
+    }
+  }
+}
+
+.my-sidebar-padding {
+  padding: 0 $div-padding-small;
+}
+
 /* Override Bootstrap default */
 .list-group-item {
   background: $primary-black;
 
   &:last-child {
-    border: none;
+    border-bottom: none;
+  }
+  &:first-child {
+    border-top: none;
   }
   &:not(:last-child) {
     border-bottom: 1px solid $secondary-white;
@@ -24,6 +42,30 @@
   &:hover {
     background: darken($primary-black, 4%);
     border-color: $secondary-black;
+  }
+}
+
+.progress-bar {
+  background-color: $light-blue-link2;
+}
+
+.clear-button-style {
+  background: none;
+  border: none;
+  padding: none;
+  outline: none;
+
+  &:active {
+    outline: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
   }
 }
 
