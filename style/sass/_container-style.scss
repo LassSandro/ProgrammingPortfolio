@@ -6,8 +6,16 @@
   background: $secondary-black;
 }
 
+.my-bg-primary-white {
+  background: $primary-white;
+}
+
+.my-bg-secondary-white {
+  background: $secondary-white;
+}
+
 .my-bg-btn {
-  background: $light-blue-link;
+  background: darken($light-blue-link, 12%);
 }
 
 .my-card-bio {
@@ -28,6 +36,7 @@
 /* Override Bootstrap default */
 .list-group-item {
   background: $primary-black;
+  border: none;
 
   &:last-child {
     border-bottom: none;
@@ -36,12 +45,11 @@
     border-top: none;
   }
   &:not(:last-child) {
-    border-bottom: 1px solid $secondary-white;
+    border-bottom: 2px solid darken($green-icon, 12%);
   }
 
   &:hover {
     background: darken($primary-black, 4%);
-    border-color: $secondary-black;
   }
 }
 
@@ -73,5 +81,5 @@
 }
 
 .fa, .fab {
-  color: $green-icon;
+  color: lighten($green-icon, 36%);
 }

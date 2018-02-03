@@ -8,13 +8,85 @@
   font-weight: 200;
 }
 
+.my-text-list {
+  color: lighten($green-icon, 18%);
+  font-weight: 400;
+}
+
+.my-text-title {
+  color: lighten($secondary-white, 24%);
+  font-weight: 100;
+  opacity: 0.8;
+}
+
+
 .my-icon-single {
   color: $primary-white !important;
   padding: $div-padding-medium;
-  font-size: 2.4rem;
-  line-height: 4.2rem;
+  font-size: 2.5rem;
+  line-height: 4.8rem;
 }
 
 .my-hr-style {
-  border-color: darken($primary-white, 60%);
+  border-color: darken($secondary-white, 30%);
+  opacity: 0.2;
+}
+
+
+/* Text Sizes Responsive */
+@include media-breakpoint-up(xs) {
+  .container {
+    padding: 0;
+  }
+
+  .info-sidebar {
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .info-sidebar {
+    h1 {
+      font-size: 1.9rem;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .info-sidebar {
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+    }
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .info-sidebar {
+    h1 {
+      font-size: 1.9rem;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .info-sidebar {
+    h1 {
+      font-size: 2.1rem;
+    }
+  }
 }
