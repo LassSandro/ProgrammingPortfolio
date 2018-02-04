@@ -1,5 +1,8 @@
 # WhatICode
 A single webpage where you can **showcase** all the programming languages, frameworks, operating systems or other technologies you are familiar with. It is intended to work like a **curriculum** or **portfolio** page, where you add all your professional information (e-mail, social network etc.), your computer knowledge and your past and present projects.
+
+Here you are my own page as an example:
+[Sandro Maglione](http://www.cmprogrammers.com/WhatICode/)
 ## Getting started
 I used `Bootstrap 4` for the **responsive** markup of the page and `php` to allow you to setup your personal information with ease, without touching a line of code. I also created the design of the page using `sass`.
 
