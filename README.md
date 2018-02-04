@@ -47,7 +47,7 @@ This is how the page looks like
 WhatICode v1.0.0 - 4 February 2018 by Sandro Maglione
 
 ## Author
-- **Sandro Maglione** - *Initial work, developement and designing*
+- **Sandro Maglione** - *Initial work, developing and designing*
 
 ## License
 GNU General Public License v3.0, see the [LICENSE.md](https://github.com/LassSandro/WhatICode/blob/master/LICENSE) file for details.
