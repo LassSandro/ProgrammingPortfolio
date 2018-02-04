@@ -66,6 +66,7 @@ $known = array(
   'devicon-sass-original' => 1,
   'devicon-php-plain' => 1,
   'devicon-javascript-plain' => 1,
+  'devicon-java-plain' => 1,
   'devicon-jquery-plain-wordmark' => 2,
   'devicon-csharp-line' => 1,
   'devicon-cplusplus-line' => 1,
@@ -149,7 +150,8 @@ $known = array(
   'icon-fsharp' => 0,
   'icon-spring' => 0,
   'icon-backbone-icon' => 0,
-  'icon-bitbucket' => 0
+  'icon-bitbucket' => 0,
+  'icon-unity' => 1
 );
 
 /* Write the description of the ones you choose */
@@ -161,6 +163,7 @@ $knownDescription = array(
   'devicon-sass-original' => 1,
   'devicon-php-plain' => 1,
   'devicon-javascript-plain' => 1,
+  'devicon-java-plain' => 1,
   'devicon-jquery-plain-wordmark' => 2,
   'devicon-csharp-line' => 1,
   'devicon-cplusplus-line' => 1,
@@ -244,7 +247,8 @@ $knownDescription = array(
   'icon-fsharp' => 0,
   'icon-spring' => 0,
   'icon-backbone-icon' => 0,
-  'icon-bitbucket' => 0
+  'icon-bitbucket' => 0,
+  'icon-unity' => 1
 );
 
 
