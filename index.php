@@ -116,8 +116,8 @@
 
           <!-- Section 3 - Skills -->
           <div class="container mb-5 pt-5">
-            <h4 class="my-text-title mb-0">Personal Skills</h4>
-            <p class="my-text-title small"><i>Soft skills, communication and other abilities <small>(Click to see more information)</small></i></p>
+            <h4 class="my-text-title mb-0">My Projects</h4>
+            <p class="my-text-title small"><i>Projects on which I worked on <small>(Click to see more information)</small></i></p>
 
             <!-- Hr -->
             <hr class="my-hr-style mb-3"/>
@@ -130,7 +130,7 @@
 
                 <?php
                   $count = 1;
-                  foreach($skills as $data => $value) {
+                  foreach($projects as $data => $value) {
                     $id = "heading".$count;
                     $collapse = "collapse".$count;
                 ?>
@@ -167,7 +167,7 @@
         <footer class="pt-5 pl-4 pr-4" style="opacity: 0.6">
           <nav class="nav">
             <p class="my-text-subtext">
-              <small>Designed and built by <a target="_blank" href="https://github.com/LassSandro">Sandro Maglione</a><br />Support the developer on socials<br />Currently v1.0.0 2018 Code licensed MIT</small>
+              <small>Designed and built by <a target="_blank" href="https://github.com/LassSandro">Sandro Maglione</a><br />Support the developer on socials<br />Currently v1.0.0 2018 GNU General Public License v3.0</small>
             </p>
           </nav>
         </footer>

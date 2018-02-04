@@ -1,4 +1,6 @@
 <?php
+/* Change the string content to match your personal information */
+
 /* User image (filename.png/jpg/jpeg...) */
 $myImage = "default.jpeg";
 
@@ -16,6 +18,8 @@ $contactMail = "lass.maglio@gmail.com";
 
 
 /* Social links */
+/* Do not change the array key (email, github etc.) */
+/* You can also add or delete one value if you want */
 $myLinks = array(
   'email' => 'mailto:lass.maglio@gmail.com',
   'github' => 'https://github.com/LassSandro',
@@ -37,7 +41,7 @@ $myLinksText = array(
   'facebook' => 'Sandro Maglione'
 );
 
-/* Icons (Default) */
+/* Icons (Default from FontAwesome (https://fontawesome.com/)) */
 $myLinkIcons = array(
   'email' => 'fa fa-envelope',
   'github' => 'fab fa-github',
@@ -50,9 +54,11 @@ $myLinkIcons = array(
 
 
 /*
+Setup the Technologies you know (value = 1) and your are learning (value = 2)
+Leave a value of 0 if you do not want to include something
 1 = Known
 2 = Learning
-0 = Not Known
+0 = Not Known / Not include
 */
 $known = array(
   'html5-plain-wordmark' => 0,
@@ -91,13 +97,14 @@ $known = array(
   'vuejs-plain-wordmark' => 0
 );
 
-/* Write the tooltip description of the ones you choose */
+/* Write the description of the ones you choose */
 /* Or the percentage in case you are learning it */
+/* These information will pop up through a tooltip on click or on hover */
 $knownDescription = array(
   'html5-plain-wordmark' => 0,
   'css3-plain-wordmark' => 0,
   'sass-original' => "83%",
-  'php-plain' => "6 years experince",
+  'php-plain' => "6 years experience",
   'javascript-plain' => 0,
   'jquery-plain-wordmark' => 0,
   'csharp-line' => "I like C#",
@@ -135,14 +142,14 @@ $knownDescription = array(
 Key: Skill name
 Value: Skill description
 */
-$skills = array(
-  'Project Management' =>
-  'Explain your skill and your experiences. Why would someone consider it?',
-  'Public Speaking' =>
-  'Explain your skill and your experiences. Why would someone consider it?',
-  'Public Relations' =>
-  'Explain your skill and your experiences. Why would someone consider it?',
-  'Buisness Management' =>
-  'Explain your skill and your experiences. Why would someone consider it?'
+$projects = array(
+  'WhatICode' =>
+  'Explain here what you developed: What language did you use? What was your role in the team? etc.',
+  'Project1' =>
+  'Explain here what you developed: What language did you use? What was your role in the team? etc.',
+  'Project2' =>
+  'Explain here what you developed: What language did you use? What was your role in the team? etc.',
+  'Project3' =>
+  'Explain here what you developed: What language did you use? What was your role in the team? etc.',
 );
 ?>
