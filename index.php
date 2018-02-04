@@ -17,6 +17,9 @@
     <!-- Custom style -->
     <link rel="stylesheet" href="./style/css/style.css" />
 
+    <!-- Custom icons -->
+    <link rel="stylesheet" href="./style/css/custom-icons.css" />
+
     <title>WhatICode</title>
   </head>
   <body>
@@ -88,7 +91,7 @@
                 foreach($known as $data => $value) {
                   if ($value == 1) {
               ?>
-                <button type="button" class="clear-button-style" data-toggle="tooltip" data-html="true" data-placement="top" title="<small><?php echo $knownDescription[$data]; ?></small>"><i class="devicon-<?php echo $data; ?> my-icon-single"></i></button>
+                <button type="button" class="clear-button-style" data-toggle="tooltip" data-html="true" data-placement="top" title="<small><?php echo $knownDescription[$data]; ?></small>"><i class="<?php echo $data; ?> my-icon-single"></i></button>
               <?php } } ?>
             </div>
           </div>
@@ -108,7 +111,7 @@
                 foreach($known as $data => $value) {
                   if ($value == 2) {
               ?>
-                <button type="button" class="clear-button-style" data-toggle="tooltip" data-placement="top" title="<?php echo $knownDescription[$data]; ?>"><i class="devicon-<?php echo $data; ?> my-icon-single"></i></button>
+                <button type="button" class="clear-button-style" data-toggle="tooltip" data-placement="top" title="<?php echo $knownDescription[$data]; ?>"><i class="<?php echo $data; ?> my-icon-single"></i></button>
               <?php } } ?>
             </div>
 
