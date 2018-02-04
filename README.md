@@ -26,7 +26,10 @@ Then you just need to setup your personal information:
    
 For more information follow the comments on the file.
 
-## Examples
+## Example
+This is how the page looks like
+
+![Showcase image](http://www.cmprogrammers.com/images/WhatICode-Screen1.png)
 
 
 ## Built with
