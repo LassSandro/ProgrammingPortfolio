@@ -77,8 +77,51 @@
         <!-- Right content section -->
         <div class="col-12 col-sm-7 col-md-7 col-lg-9 my-bg-secondary pt-5 pr-5 pl-5 pb-3">
 
-          <!-- Section 1 - Known -->
+          <!-- Section 0 - Experience -->
           <div class="container mb-5">
+            <h4 class="my-text-title mb-0">About Me</h4>
+            <p class="my-text-title small"><i>Get to know who I am</i></p>
+
+            <!-- Hr -->
+            <hr class="my-hr-style mb-3"/>
+
+            <!-- Data list -->
+            <div class="my-bg-secondary">
+              <p class="my-text-subtext">
+              <?php
+                echo $whoIAm;
+              ?>
+              </p>
+            </div>
+          </div>
+
+
+          <!-- Section 0 - Experience -->
+          <div class="container mb-5">
+            <h4 class="my-text-title mb-0">Experience</h4>
+            <p class="my-text-title small"><i>Level of experience with different technologies <small>(Click to see more information)</small></i></p>
+
+            <!-- Hr -->
+            <hr class="my-hr-style mb-3"/>
+
+            <!-- Data list -->
+            <div class="my-bg-secondary">
+              <?php
+                foreach($experience as $data => $value) {
+              ?>
+
+              <div class="progress mt-1 mb-3" data-toggle="tooltip" data-html="true" data-placement="top" title="<small><?php echo $value . " / 100"; ?></small>">
+                <div class="progress-bar" role="progressbar" style="width: <?php echo $value; ?>%" aria-valuenow="<?php echo $value; ?>" aria-valuemin="0" aria-valuemax="100">
+                  <span><?php echo $data; ?></span>
+                </div>
+              </div>
+              <?php } ?>
+            </div>
+          </div>
+
+
+          <!-- Section 1 - Known -->
+          <div class="container mb-5 pt-5">
             <h4 class="my-text-title mb-0">Known Technologies</h4>
             <p class="my-text-title small"><i>Programming languages, frameworks, software and other <small>(Click to see more information)</small></i></p>
 

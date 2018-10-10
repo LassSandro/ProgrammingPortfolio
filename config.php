@@ -53,6 +53,26 @@ $myLinkIcons = array(
 );
 
 
+/* Full Description of yourself */
+$whoIAm = "A single webpage where you can showcase all the programming languages, frameworks, operating systems or other technologies you are familiar with. It is intended to work like a curriculum or portfolio page, where you add all your professional information (e-mail, social network etc.), your computer knowledge and your past and present projects.";
+
+
+/*
+Experience Level
+Key: Technology name
+Value: Knowledge progress (0 - 100)
+*/
+$experience = array(
+  "PHP" => 100,
+  "JavaScript" => 87,
+  "CSS" => 84,
+  "HTML" => 77,
+  "Java" => 65,
+  "C++" => 44,
+  "Design" => 32,
+);
+
+
 /*
 Setup the Technologies you know (value = 1) and your are learning (value = 2)
 Leave a value of 0 if you do not want to include something

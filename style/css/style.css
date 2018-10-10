@@ -92,9 +92,6 @@
   .list-group-item:hover {
     background: #1c1f25; }
 
-.progress-bar {
-  background-color: #19A9E3; }
-
 .clear-button-style {
   background: none;
   border: none;
@@ -110,5 +107,19 @@
 
 .fa, .fab {
   color: #b0b4c3; }
+
+.progress {
+  background: rgba(57, 62, 74, 0.1);
+  border: 1px solid rgba(165, 165, 165, 0.1);
+  border-left: 3px solid #d2d2d2;
+  border-radius: 0 3px 12px 0;
+  height: auto; }
+
+.progress-bar {
+  background-color: #1380ac;
+  border-radius: 0 0 12px 0; }
+  .progress-bar span {
+    font-weight: 200;
+    color: #FFF; }
 
 /*# sourceMappingURL=style.css.map */
