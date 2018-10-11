@@ -77,7 +77,8 @@
         <!-- Right content section -->
         <div class="col-12 col-sm-7 col-md-7 col-lg-9 my-bg-secondary pt-5 pr-5 pl-5 pb-3">
 
-          <!-- Section 0 - Experience -->
+          <!-- Section 1 - About me -->
+          <?php if ($active['aboutMe']) { ?>
           <div class="container mb-5">
             <h4 class="my-text-title mb-0">About Me</h4>
             <p class="my-text-title small"><i>Get to know who I am</i></p>
@@ -94,9 +95,11 @@
               </p>
             </div>
           </div>
+          <?php } ?>
 
 
-          <!-- Section 0 - Experience -->
+          <!-- Section 1 - Experience -->
+          <?php if ($active['experience']) { ?>
           <div class="container mb-5">
             <h4 class="my-text-title mb-0">Experience</h4>
             <p class="my-text-title small"><i>Level of experience with different technologies <small>(Click to see more information)</small></i></p>
@@ -118,9 +121,11 @@
               <?php } ?>
             </div>
           </div>
+          <?php } ?>
 
 
-          <!-- Section 1 - Known -->
+          <!-- Section 2 - Known -->
+          <?php if ($active['knownTechnologies']) { ?>
           <div class="container mb-5 pt-5">
             <h4 class="my-text-title mb-0">Known Technologies</h4>
             <p class="my-text-title small"><i>Programming languages, frameworks, software and other <small>(Click to see more information)</small></i></p>
@@ -138,9 +143,11 @@
               <?php } } ?>
             </div>
           </div>
+          <?php } ?>
 
 
-          <!-- Section 2 - Learning at the moment -->
+          <!-- Section 3 - Learning at the moment -->
+          <?php if ($active['currentlyLearning']) { ?>
           <div class="container mb-5 pt-5">
             <h4 class="my-text-title mb-0">Currently Learning</h4>
             <p class="my-text-title small"><i>Technologies that I am currently studying and experimenting with <small>(Click to see my current percentage progress)</small></i></p>
@@ -159,8 +166,11 @@
             </div>
 
           </div>
+          <?php } ?>
 
-          <!-- Section 3 - Skills -->
+
+          <!-- Section 4 - My Projects -->
+          <?php if ($active['myProjects']) { ?>
           <div class="container mb-5 pt-5">
             <h4 class="my-text-title mb-0">My Projects</h4>
             <p class="my-text-title small"><i>Projects on which I worked on <small>(Click to see more information)</small></i></p>
@@ -207,13 +217,15 @@
               </div>
             </div>
           </div>
+          <?php } ?>
+
 
 
         <!-- Made by footer, please do not delete or change, thanks -->
         <footer class="pt-5 pl-4 pr-4" style="opacity: 0.6">
           <nav class="nav">
             <p class="my-text-subtext">
-              <small>Designed and built by <a target="_blank" href="https://github.com/LassSandro">Sandro Maglione</a><br />Support the developer on socials<br />Currently v1.0.0 2018 GNU General Public License v3.0</small>
+              <small>Designed and built by <a target="_blank" href="https://github.com/LassSandro">Sandro Maglione</a><br />Support the developer on socials<br />Currently v1.1.0 2018 GNU General Public License v3.0</small>
             </p>
           </nav>
         </footer>

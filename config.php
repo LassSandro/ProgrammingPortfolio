@@ -52,6 +52,15 @@ $myLinkIcons = array(
   'facebook' => 'fab fa-facebook-f'
 );
 
+/* Turn On (true) / Off (false) specific sections */
+$active = array(
+  "aboutMe" => true,
+  "experience" => true,
+  "knownTechnologies" => true,
+  "currentlyLearning" => true,
+  "myProjects" => true
+);
+
 
 /* Full Description of yourself */
 $whoIAm = "A single webpage where you can showcase all the programming languages, frameworks, operating systems or other technologies you are familiar with. It is intended to work like a curriculum or portfolio page, where you add all your professional information (e-mail, social network etc.), your computer knowledge and your past and present projects.";
