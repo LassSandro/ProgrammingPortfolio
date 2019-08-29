@@ -2,7 +2,7 @@
 A single webpage where you can **showcase** all the programming languages, frameworks, operating systems or other technologies you are familiar with. It is intended to work like a **curriculum** or **portfolio** page, where you add all your professional information (e-mail, social network etc.), your computer knowledge and your past and present projects.
 
 Here you are my own page as an example:
-[Sandro Maglione](http://www.cmprogrammers.com/WhatICode/)
+**[Sandro Maglione](http://www.sandromaglione.com/aboutme/)**
 ## Getting started
 I used `Bootstrap 4` for the **responsive** markup of the page and `php` to allow you to setup your personal information with ease, without touching a line of code. I also created the design of the page using `sass`.
 
@@ -32,7 +32,7 @@ For more information follow the comments on the file.
 ## Example
 This is how the page looks like
 
-![Showcase image](http://www.cmprogrammers.com/images/WhatICode-Screen1.png)
+![Showcase image](https://www.sandromaglione.com/images/whatICode_screen.png)
 
 
 ## Built with
@@ -47,7 +47,8 @@ This is how the page looks like
 - [jQuery](https://jquery.com/)
 
 ## Versioning
-WhatICode v1.0.0 - 4 February 2018 by Sandro Maglione
+- v1.1.1 - 29 August 2019 by Sandro Maglione
+- v1.1.0 - 4 February 2018 by Sandro Maglione
 
 ## Author
 - **Sandro Maglione** - *Initial work, developing and designing*
