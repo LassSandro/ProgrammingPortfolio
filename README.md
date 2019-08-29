@@ -47,8 +47,9 @@ This is how the page looks like
 - [jQuery](https://jquery.com/)
 
 ## Versioning
-- v1.1.1 - 29 August 2019 by Sandro Maglione
-- v1.1.0 - 4 February 2018 by Sandro Maglione
+- v1.1.1 - 29 August 2019
+- v1.1.0 - 11 October 2018
+- v1.0.0 - 4 February 2018
 
 ## Author
 - **Sandro Maglione** - *Initial work, developing and designing*
