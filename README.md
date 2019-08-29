@@ -53,6 +53,10 @@ This is how the page looks like
 
 ## Author
 - **Sandro Maglione** - *Initial work, developing and designing*
+* Website: [sandromaglione.com](https://www.sandromaglione.com/)
+* Linkedin: [Sandro Maglione](https://www.linkedin.com/in/sandro-maglione97/)
+* Twitter: [@SandroMaglione](https://twitter.com/SandroMaglione)
+* Github: [@SandroMaglione](https://github.com/SandroMaglione)
 
 ## License
 GNU General Public License v3.0, see the [LICENSE.md](https://github.com/LassSandro/WhatICode/blob/master/LICENSE) file for details.
